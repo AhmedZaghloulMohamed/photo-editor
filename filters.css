@@ -1,0 +1,24 @@
+.filters ul,
+.filters ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    direction: rtl;
+}
+
+.filters ul li label {
+    color: #fff;
+}
+
+.filters ul li:last-child {
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.filters ul li a,
+span {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #060;
+}
